@@ -14,19 +14,12 @@ console.log(multiply(6,5));
 
 //TASK 3
 	
-console.log('using es5');
+console.log('reduce');
 
-function average1() {
-var sum = 0;
-var average=0;
-    for (var i=0; i < arguments.length; i++) {
-        sum = sum +arguments[i];
-    }
-    average = sum/arguments.length;
-    return average;
-}
+const averageReduce = (...args) => args.reduce((suma, arg) => suma + arg)/args.length;
 
-console.log(average1(1, 2, 3));
+console.log(averageReduce(1,2,3)); 
+
 	
 //TASK 4 
 
@@ -38,7 +31,7 @@ average(...grades);
 
 const array1 = [1, 4, 'Iwona', false, 'Nowak'];
 
-const [, , firstName, ,lastName]=array1;
+const [, , firstName, ,lastName] = array1;
 
 console.log(`The frist name is: ${firstName}`);
 console.log(`The last name is: ${lastName}`);
