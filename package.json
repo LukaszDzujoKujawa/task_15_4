@@ -1,20 +1,24 @@
 {
-  "name": "task",
+  "name": "task-15_4",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "FEW ES6 TASKS\r ====================",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel script.js --watch --out-file script-compiled.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+    "url": "git+https://github.com/LukaszDzujoKujawa/task_15_4.git"
   },
-  "author": "Lukasz",
+  "author": "",
   "license": "ISC",
-
+  "bugs": {
+    "url": "https://github.com/LukaszDzujoKujawa/task_15_4/issues"
+  },
+  "homepage": "https://github.com/LukaszDzujoKujawa/task_15_4#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
   }
 }

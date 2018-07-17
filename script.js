@@ -16,10 +16,9 @@ console.log(multiply(6,5));
 	
 console.log('reduce');
 
-const averageReduce = (...args) => args.reduce((suma, arg) => suma + arg)/args.length;
+const averageReduce = (...args) => args.reduce((sum, arg) => sum + arg)/args.length;
 
-console.log(averageReduce(1,2,3)); 
-
+console.log(reduce(1,2,3)); 
 	
 //TASK 4 
 
@@ -33,5 +32,5 @@ const array1 = [1, 4, 'Iwona', false, 'Nowak'];
 
 const [, , firstName, ,lastName] = array1;
 
-console.log(`The frist name is: ${firstName}`);
+console.log(`The first name is: ${firstName}`);
 console.log(`The last name is: ${lastName}`);
