@@ -16,10 +16,10 @@ console.log(multiply(6,5));
 	
 console.log('reduce');
 
-const averageReduce = (...args) => args.reduce((sum, arg) => sum + arg)/args.length;
+const averageReduce = (...args) => args.reduce((sum, arg) => sum + arg, 0)/args.length;
 
-console.log(reduce(1,2,3)); 
-	
+console.log(averageReduce(1,2,3)); 
+
 //TASK 4 
 
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
